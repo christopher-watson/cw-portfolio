@@ -1,27 +1,52 @@
 {
-  "compilerOptions": {
-    "target": "es5",
-    "lib": ["dom", "dom.iterable", "esnext"],
-    "allowJs": true,
-    "skipLibCheck": true,
-    "strict": false,
-    "forceConsistentCasingInFileNames": true,
-    "noEmit": true,
-    "esModuleInterop": true,
-    "module": "esnext",
-    "moduleResolution": "node",
-    "resolveJsonModule": true,
-    "isolatedModules": true,
-    "jsx": "preserve",
-    "baseUrl": ".",
-    "incremental": true,
-    "plugins": [
-      {
-        "name": "next"
-      }
-    ],
-    "strictNullChecks": true
-  },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
-  "exclude": ["node_modules"]
+   "compilerOptions": {
+      "target": "es5",
+      "lib": [
+         "dom",
+         "dom.iterable",
+         "esnext"
+      ],
+      "allowJs": true,
+      "skipLibCheck": true,
+      "strict": false,
+      "forceConsistentCasingInFileNames": true,
+      "noEmit": true,
+      "esModuleInterop": true,
+      "module": "esnext",
+      "moduleResolution": "node",
+      "resolveJsonModule": true,
+      "isolatedModules": true,
+      "jsx": "preserve",
+      "baseUrl": ".",
+      "incremental": true,
+      "plugins": [
+         {
+            "name": "next"
+         }
+      ],
+      "strictNullChecks": true,
+      // "paths": {
+      //    "@/*": [
+      //       "./*"
+      //    ]
+      // },
+   },
+   "include": [
+      "next-env.d.ts",
+      "**/*.ts",
+      "**/*.tsx",
+      ".next/types/**/*.ts",
+      ".archive/layout.tsx",
+      ".archive/page.tsx",
+      ".archive/robots.ts",
+      ".archive/tweet.tsx",
+      ".archive/youtube.tsx",
+      ".archive/caption.tsx",
+      ".archive/image-grid.tsx",
+      ".archive/mdx.tsx",
+      ".archive/project-data.tsx"
+   ],
+   "exclude": [
+      "node_modules"
+   ]
 }
