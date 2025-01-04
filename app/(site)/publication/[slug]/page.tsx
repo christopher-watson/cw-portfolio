@@ -2,7 +2,7 @@ import { SanityTypes } from '@/@types';
 import { client } from '@/sanity/lib/client';
 import React from 'react'
 
-async function getPub(slug: string): Promise<any> {
+async function getPub(slug: string): Promise<SanityTypes.Publication> {
    const query = `
       *[_type == 'publication' && slug.current == $slug]{
          _createdAt,

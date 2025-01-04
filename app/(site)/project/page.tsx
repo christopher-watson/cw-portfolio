@@ -18,7 +18,7 @@ export default async function Projects() {
 
    return (
       <section>
-         <h1 className="mb-8 text-2xl font-medium tracking-tight">Projects</h1>
+         <h1 className="mb-8 text-3xl font-medium tracking-tight">Projects</h1>
          <div>
             {
                projects.map((proj: SanityTypes.Project, key: number) => {

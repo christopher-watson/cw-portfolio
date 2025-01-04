@@ -18,7 +18,7 @@ export default async function Publications() {
    
    return (
       <section>
-         <h1 className="mb-8 text-2xl font-medium tracking-tight">Publications</h1>
+         <h1 className="mb-8 text-3xl font-medium tracking-tight">Research & Publications</h1>
          <div>
             {
                publications.map((pub: SanityTypes.Publication, key: number) => {

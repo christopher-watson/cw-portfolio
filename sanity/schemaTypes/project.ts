@@ -1,5 +1,6 @@
 import { defineField } from "sanity";
 
+/* eslint import/no-anonymous-default-export: [2, {"allowObject": true}] */
 export default {
    name: "project",
    title: "Project",
